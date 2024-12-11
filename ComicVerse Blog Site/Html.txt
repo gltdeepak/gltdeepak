@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ComicVerse blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">ComicVerse Blog</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <img
+            src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/Menu-32x32.png?v=1733875067554"
+            alt="Menu"
+          />
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new-releases">New Releases</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Videos</a></li>
+        <li><a href="#new-releases"></a></li>
+        <li><a href="#blog"></a></li>
+        <li><a href="#contact"></a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search Comics" />
+        <span>
+          <img
+            src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/search-2-line.png?v=1733482455385"
+            alt="Search Icon"
+            width="15"
+            height="15"
+          />
+        </span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/Captureasdzxc.JPG?v=1733821064757" width = "600" height="auto" alt="Comic Collection" />
+      </div>
+      <div class="header__content">
+        <h1>Discover the Best Comics in the Multiverse</h1>
+        <p>
+          Dive into your favorite stories and explore new adventures. Your
+          journey begins here!
+        </p>
+      </div>
+    </header>
+
+    <section class="section__container product__container" id="new-releases">
+      <h2 class="section__header">New Releases</h2>
+     <div class="comics-grid">
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/1-7.jpg?v=1730196043364" alt="Comic 1">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/2-1.jpg?v=1730196062119" alt="Comic 2">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/4-4.jpg?v=1730196065216" alt="Comic 3">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/5-4.jpg?v=1730196068843" alt="Comic 4">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/38c11446b221a320134f9e3b4b1899b3.jpg?v=1730196071808" alt="Comic 5">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/22017-business-product-mashon7a0ch21598367539-1200.jpg?v=1730196075324" alt="Comic 6">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/29912MV_500x700.webp?v=1730196075708" alt="Comic 7">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/batman-and-joker-comic-cover-i166717.jpg?v=1730196079830" alt="Comic 8">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/clean.jpg?v=1731323494988" alt="Comic 9">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/clean2.jpg?v=1731323497182" alt="Comic 10">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/clean1.jpg?v=1731323499922" alt="Comic 11">
+  </div>
+  <div class="comic">
+    <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/am_sm_23_d100_var.jpg?v=1730196083977" alt="Comic 12">
+  </div>
+</div>
+    </section>
+
+    
+    <!-- Blog Section -->
+<section class="section__container blog__container" id="blog">
+  <h2 class="section__header">Blog</h2>
+  <div class="blog__grid">
+    <article class="blog__post">
+      <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/dcvsmarvelomni-adv-rev2-3-copy.webp?v=1730196078046" alt="Blog Post 1" />
+      <div class="blog__content">
+        <h3>Top 5 Must-Read Comics</h3>
+        <p>
+          Discover the top five comics every enthusiast should read this year.
+          From classics to hidden gems, we've got you covered.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </article>
+    <article class="blog__post">
+      <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/gettyimages-820429996-2000-f9a8cb53afcd448f917eb8830a247ca2.jpg?v=1733547921748" alt="Blog Post 2" />
+      <div class="blog__content">
+        <h3>Behind the Panels: The Art of Comics</h3>
+        <p>
+          Dive into the creative process of your favorite comic book artists and
+          learn how they bring stories to life.
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </article>
+    <article class="blog__post">
+      <img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/la-comic-con-2024-main-cde1c12f6d.png?v=1733548705002" alt="Blog Post 3" />
+      <div class="blog__content">
+        <h3>Upcoming Comic-Con Events</h3>
+        <p>
+          Stay updated with the latest Comic-Con events happening worldwide.
+          Don't miss the action!
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- News Section -->
+<section class="section__container news__container" id="news">
+  <h2 class="section__header">Latest News</h2>
+  <div class="news__grid">
+    <article class="news__item">
+      <h3>Breaking: New Spider-Man Series Announced</h3>
+      <p>
+        Marvel has just announced a brand-new Spider-Man series that promises
+        to redefine the hero’s legacy. Coming in 2025!
+      </p>
+      <span class="news__date">Published: Dec 6, 2024</span>
+    </article>
+    <article class="news__item">
+      <h3>DC Unveils New Villain for Batman</h3>
+      <p>
+        A new dark and enigmatic villain enters Gotham! Find out more about DC’s
+        latest addition to the Batman universe.
+      </p>
+      <span class="news__date">Published: Dec 5, 2024</span>
+    </article>
+    <article class="news__item">
+      <h3>Comic Sales Reach Record Highs in 2024</h3>
+      <p>
+        The comic book industry has experienced unprecedented growth this year.
+        Here's what's fueling the surge.
+      </p>
+      <span class="news__date">Published: Dec 4, 2024</span>
+    </article>
+  </div>
+</section>
+
+  <footer class="footer" id="contact">
+  <div class="section__container footer__container">
+    <!-- Footer Column 1 -->
+    <div class="footer__col">
+      <div class="footer__logo">
+        <a href="#" class="logo">ComicVerse Blog</a>
+      </div>
+      <p>
+        Your one-stop shop for everything comics. From classics to modern
+        adventures, we’ve got it all.
+      </p>
+    </div>
+
+    <!-- Footer Column 2 -->
+    <div class="footer__col">
+      <h3>Follow Us</h3>
+      <ul class="footer__socials">
+        <li><a href="https://x.com/home" target="_blank"><img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/X-32x32.png?v=1733875064641" alt="Twitter" width="20" /></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/Insta-32x32.png?v=1733875072072" alt="Instagram" width="20" /></a></li>
+        <li><a href="#"><img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/FB-32x32.png?v=1733875075265" alt="Facebook" width="20" /></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank"><img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/YT-32x32.png?v=1733875057004" alt="YouTube" width="20" /></a></li>
+        <li><a href="https://discord.com/" target="_blank"><img src="https://cdn.glitch.global/111cfbf8-8cdd-484e-8107-0230f314a399/favicon-32x32.png?v=1733875077537" alt="Discord" width="20" /></a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Column 3 -->
+    <div class="footer__col">
+      <h3>Quick Links</h3>
+      <ul class="footer__links">
+        <li><a href="#">Help / FAQs</a></li>
+        <li><a href="#">About ComicVerse</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Column 4 -->
+    <div class="footer__col">
+      <h3>Subscribe</h3>
+      <form class="footer__form">
+        <input type="email" placeholder="Enter your email" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer__bar">
+    <p>Copyright © 2024 ComicVerse Blog. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
